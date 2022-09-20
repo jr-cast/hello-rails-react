@@ -23,10 +23,3 @@ export default function greetingReducer(state = initialState, action) {
       return state;
   }
 }
-
-export const fetchData = async () => {
-  await axios.get('api/message').then((res) => {
-    return res.data.message
-  });
-};
-

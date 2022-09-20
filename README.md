@@ -1,24 +1,60 @@
-# README
+# Rails-React-App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+## Getting Started
 
-* System dependencies
+This repository includes files with Ruby that can be used to test the created main classes from the app
 
-* Configuration
+Clone this link into your local device.
 
-* Database creation
+To run test make sure that rspec-rails and capybara libraries are installed in your project
 
-* Database initialization
+To double check please run:
+```
+bundle install
+yarn install
+```
+This will install both gems if they were missing in your environment.
 
-* How to run the test suite
+Run the server:
+```
+./bin/dev
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+or
 
-* Deployment instructions
+Build manuallt and run the server with rails:
 
-* ...
+```
+yarn build
+
+rails s
+```
+
+## Authors
+
+👤 **Jose**
+
+- GitHub: [@jr-cast](https://github.com/jr-cast)
+- Twitter: [@josercastanos](https://twitter.com/josercastanos)
+- LinkedIn: [@jr-cast](https://linkedin.com/in/jr-cast)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.

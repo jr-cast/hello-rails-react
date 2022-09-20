@@ -18,7 +18,7 @@ const Greeting = () => {
   }, []);
 
   return (
-    <h1>{msg}</h1>
+    <code>{msg}</code>
   )
 }
 
