@@ -14,13 +14,13 @@
  *= require_self
  */
 
- body {
+body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 73vh;
   border: 100px solid goldenrod;
- }
+}
 
 code {
   font-size: 4em;

@@ -5,4 +5,3 @@ class RootController < ApplicationController
     render json: { message: Message.all.sample.message }
   end
 end
-  
