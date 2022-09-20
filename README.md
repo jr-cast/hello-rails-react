@@ -1,6 +1,6 @@
 # Rails-React-App
 
-
+![image](https://user-images.githubusercontent.com/58822719/191326927-fdd91ba0-1f58-429b-a2d7-f4b1107414d2.png)
 
 ## Getting Started
 
@@ -24,7 +24,7 @@ Run the server:
 
 or
 
-Build manuallt and run the server with rails:
+Build manually and run the server with rails:
 
 ```
 yarn build
