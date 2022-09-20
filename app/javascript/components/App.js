@@ -5,14 +5,18 @@ import {
   Route,
 } from 'react-router-dom';
 import Greeting from './Greeting';
+import { Provider } from 'react-redux';
+import store from '../redux/configureStore';
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Greeting />}></Route>
-      </Routes>
-    </BrowserRouter>
+    <Provider store={store}>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Greeting />}></Route>
+        </Routes>
+      </BrowserRouter>
+    </Provider>
   )
 }
 

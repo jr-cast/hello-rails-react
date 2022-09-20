@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 // Defining actiontype
 const FETCH_MSG = 'greetings/FETCH_MSG';
 
@@ -12,4 +14,19 @@ export function fetchMessageSuccess(data) {
   };
 }
 
+// reducer
+export default function greetingReducer(state = initialState, action) {
+  switch (action.type) {
+    case FETCH_MSG:
+      return action.payload;
+    default:
+      return state;
+  }
+}
+
+export const fetchData = async () => {
+  await axios.get('api/message').then((res) => {
+    return res.data.message
+  });
+};
 
